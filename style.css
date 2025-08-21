@@ -1,0 +1,389 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Global styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #021024;
+    color: white;
+  }
+  
+  .navbar {
+    background-color: #021024;
+   
+    height: 70px;
+    font-size: 20px;
+  }
+  
+  .nav-link {
+    color: white !important;
+  }
+  
+  .hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 3.5rem;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+  }
+  
+  .highlight {
+    color: #00e0ff;
+  }
+  
+  p {
+    font-size: 1.1rem;
+  }
+  
+  /* Social Media Icons */
+  .social-icons {
+    margin-bottom: 20px;
+  }
+  
+  .social-icon {
+    margin-right: 15px;
+    color: white;
+    font-size: 1.75rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #00e0ff;
+  }
+  
+  /* Button */
+  .btn-primary {
+    background-color: #00e0ff;
+    border-color: #00e0ff;
+    box-shadow: 0 5px 15px rgba(0, 224, 255, 0.5);
+  }
+  
+  .btn-primary:hover {
+    background-color: #00c4e0;
+    border-color: #00c4e0;
+    box-shadow: 0 5px 25px rgba(0, 224, 255, 0.7);
+  }
+  
+  /* Circle Image */
+  .image-container {
+    position: relative;
+  }
+  
+  .image-circle {
+    width: 500px;
+    height: 500px;
+    background-color: #00e0ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 30px rgba(0, 224, 255, 0.5); /* Circle shadow */
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .profile-img {
+    width: 460px;
+    height: 460px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    /* top: 50px; Adjusts the image's position within the circle */
+  }
+  
+  /* Media Query */
+  @media (max-width: 768px) {
+    .hero {
+      text-align: center;
+    }
+  
+    .image-circle {
+      margin-top: 20px;
+      width: 300px;
+      height: 300px;
+    }
+  
+    .profile-img {
+      width: 280px;
+      height: 280px;
+    }
+  }
+
+
+
+
+  /* About Me Section Styles */
+.about-me {
+    background-color: #1d1d1d;
+    color: white;
+    padding: 100px 0;
+  }
+  
+  .about-me h2 {
+    font-size: 3rem;
+    color: white;
+  }
+  
+  .about-me h3 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-me p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  
+  .highlight {
+    color: #00e0ff;
+  }
+  
+  /* Circle Image */
+  .about-image-container {
+    position: relative;
+  }
+  
+  .about-image-circle {
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    border: 6px solid #00e0ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .profile-img-a {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;       /* Fill the circle */
+  object-position: top;    /* Show more of the head */
+}
+
+  
+  /* Button */
+  .btn-primary {
+    background-color: #00e0ff;
+    border-color: #00e0ff;
+    box-shadow: 0 5px 15px rgba(0, 224, 255, 0.5);
+  }
+  
+  .btn-primary:hover {
+    background-color: #00c4e0;
+    border-color: #00c4e0;
+    box-shadow: 0 5px 25px rgba(0, 224, 255, 0.7);
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .about-me {
+      text-align: center;
+    }
+  
+    .about-image-circle {
+      margin-bottom: 30px;
+    }
+  }
+
+  
+  /* My Services Section */
+.my-services {
+    background-color: #1d1d1d;
+    color: white;
+  }
+  
+  .my-services h2 {
+    font-size: 3rem;
+    color: white;
+  }
+  
+  .highlight {
+    color: #00e0ff;
+  }
+  
+  .service-card {
+    background-color: #2c2c2c;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .service-card:hover {
+    border-color: #00e0ff;
+  }
+  
+  .service-icon {
+    font-size: 3rem;
+    color: #00e0ff;
+    margin-bottom: 20px;
+  }
+  
+  .service-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .service-description {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Button */
+  .btn-primary {
+    background-color: #00e0ff;
+    border-color: #00e0ff;
+    box-shadow: 0 5px 15px rgba(0, 224, 255, 0.5);
+  }
+  
+  .btn-primary:hover {
+    background-color: #00c4e0;
+    border-color: #00c4e0;
+    box-shadow: 0 5px 25px rgba(0, 224, 255, 0.7);
+  }
+  
+/* Skills Section with Gradient */
+/* Skills Section with Gradient */
+.skills-section {
+  padding: 60px 0;
+  background-color: #1d1d1d;
+  color: white;
+}
+
+.skill-card {
+  background-color: #242424;
+  padding: 20px;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 224, 255, 0.5);
+}
+
+.skill-icon {
+  font-size: 40px;
+  color: #00e0ff;
+  margin-bottom: 10px;
+}
+
+
+
+
+/* Projects Section with Gradient */
+.projects-section {
+  padding: 60px 0;
+  background: linear-gradient(#1d1d1d, #021024); /* Smooth dark blend */
+  color: white;
+}
+
+.projects-section h2,
+.projects-section h4 {
+  color: white;
+}
+
+.projects-section p {
+  color: #ddd; /* Softer white */
+}
+
+.project-img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.project-item {
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 20px;
+}
+
+.btn-github {
+  display: inline-flex;
+  align-items: center;
+  background-color: #24292f;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-github:hover {
+  background-color: #333;
+  color: white;
+}
+
+.btn-github i {
+  margin-left: 8px;
+}
+
+/* Contact Section with Gradient */
+.contact-section {
+  padding: 60px 0;
+  background: linear-gradient(#021024, #1d1d1d); /* Reverse gradient for smooth flow */
+  color: white;
+}
+
+.contact-section h2 {
+  color: white;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-item i {
+  font-size: 1.5rem;
+  color: inherit;
+}
+
+.contact-item:hover {
+  color: #00e0ff; /* Highlight color */
+}
+
+
+
+.neon-text {
+  color: #e60026;  /* Slightly softer red */
+  text-shadow:
+    0 0 3px #e60026,
+    0 0 6px #e60026,
+    0 0 10px #cc001f,
+    0 0 20px #b3001a;
+  font-weight: bold;
+  font-size: 0.95rem;
+  margin-top: 5px;
+}
+
